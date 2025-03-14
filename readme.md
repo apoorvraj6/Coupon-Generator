@@ -12,7 +12,7 @@ This is a web application that distributes coupons to guest users in a round-rob
 
 ## 🔹 Live Demo
 🔗 [Frontend URL](https://coupon-generator-delta.vercel.app/)  
-🔗 [Backend URL](https://your-backend-url.com)  
+🔗 [Backend URL](https://coupon-generator-mu.vercel.app/)  
 
 ---
 
@@ -61,3 +61,12 @@ Backend: Node.js, Express.js
 Database: MongoDB (Mongoose)
 Cache & Abuse Prevention: Redis
 Deployment: Vercel (Frontend), Render (Backend)
+
+
+
+## Screenshots
+### Home Page
+![Home Page](screenshot/Home)
+
+### Error
+![All Doctors](screenshot/Error)
