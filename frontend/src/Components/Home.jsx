@@ -7,9 +7,11 @@ const Home = () => {
     const [coupon, setCoupon] = useState('');
     const [time, setTime] = useState('');
 
+    const API_URL = import.meta.env.VITE_API_URL;
+    {console.log(API_URL)}
     const getCoupon = async () => {
         try {
-            const res = await axios.post('http://localhost:8000/api/coupon/claim-coupon');
+            const res = await axios.post(`${API_URL}/api/coupon/claim-coupon`);
             console.log(res);
             setCoupon(res.data.data.coupon);
         } catch (error) {
