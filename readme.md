@@ -41,28 +41,24 @@ To prevent users from exploiting the system by refreshing or changing networks, 
 ```sh
 git clone <your-repo-url>
 cd your-project
+```
 2️⃣ Install Dependencies
-sh
+```sh
 Copy code
 npm install
+```
 3️⃣ Start Backend
-sh
+```sh
 Copy code
 npm run dev
+```
 4️⃣ Start Frontend
-sh
+```sh
 Copy code
 cd frontend
 npm install
 npm run dev
-🔹 Tech Stack
-Frontend: React, Axios, Tailwind CSS
-Backend: Node.js, Express.js
-Database: MongoDB (Mongoose)
-Cache & Abuse Prevention: Redis
-Deployment: Vercel (Frontend), Render (Backend)
-
-
+```
 
 ## Screenshots
 ### Home Page
