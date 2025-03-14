@@ -19,7 +19,7 @@ const nextCoupon = async()=>{
 const claimCoupon = asyncHandeler(async(req,res)=>{
 
     const userIp = req.ip;
-    const sessionId = req.cookies.sessionid;
+    let sessionId = req.cookies.sessionid;
 
     // Generate a session ID if not present
     if(!sessionId){
