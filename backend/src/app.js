@@ -13,4 +13,10 @@ app.use(cors({
 app.use(express.json());
 app.use(cookieParser());
 
+
+import couponRouter from './routes/couponRoutes.js'
+
+app.use('/api/coupon',couponRouter);
+
+
 export {app};

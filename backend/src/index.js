@@ -1,6 +1,7 @@
 import dotenv from 'dotenv'
 import { connectdb } from './db/connectdb.js'
 import { app } from './app.js'
+import { connectredis } from './utils/redis.js'
 
 
 
@@ -15,3 +16,5 @@ connectdb()
     })
 })
 .catch((Error)=>{console.log("Mongodb Connect Failed",Error)})
+
+connectredis();
