@@ -60,9 +60,4 @@ npm install
 npm run dev
 ```
 
-## Screenshots
-### Home Page
-![Home Page](screenshot/Home)
 
-### Error
-![All Doctors](screenshot/Error)
