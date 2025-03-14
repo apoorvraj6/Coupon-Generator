@@ -11,8 +11,8 @@ This is a web application that distributes coupons to guest users in a round-rob
 ✅ Fully deployed and accessible via a public URL  
 
 ## 🔹 Live Demo
-🔗 [Frontend URL](https://coupon-generator-delta.vercel.app/)  
-🔗 [Backend URL](https://coupon-generator-mu.vercel.app/)  
+🔗 [Frontend URL](https://coupon-generator-mu.vercel.app/)  
+🔗 [Backend URL](https://coupon-generator-gdr3.onrender.com)  
 
 ---
 
